@@ -1,0 +1,18 @@
+.a-1, .b-1 {
+	width: 50px;
+	margin: 10px;
+	padding: 5px;
+}
+
+
+.a-1 .a-3 {
+	_background: green;
+}
+
+.a-1 > .a-2 {
+	_background: gray;
+}
+
+.a-1 + .b-1 {
+	_background: red;
+}

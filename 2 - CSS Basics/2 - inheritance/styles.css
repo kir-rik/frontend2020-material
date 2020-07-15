@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+
+.level-1 {
+	border: solid red 3px;
+}
+
+.level-2 {
+	margin: 5px;
+	border: solid black 3px;
+}
+
+.tests {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	padding: 5px;
+}

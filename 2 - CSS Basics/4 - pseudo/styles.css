@@ -1,0 +1,29 @@
+.with-focus:focus {
+	background: red;
+}
+
+.with-selection::selection {
+	background: black;
+	color: white;
+}
+
+.with-hover {
+	text-decoration: none;
+}
+
+.with-hover:hover {
+	text-decoration: underline;
+}
+
+
+.with-before-after::before { 
+  content: "«";
+  color: gray;
+  font-size: 24px;
+}
+
+.with-before-after::after { 
+  content: "»";
+  color: gray;
+  font-size: 24px;
+}

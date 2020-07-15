@@ -1,0 +1,31 @@
+p {
+	padding: 5px;
+	width: 50px;
+	border: 1px solid black;
+}
+
+#first {
+	background: gray
+}
+
+.green {
+	background: green;
+}
+
+.blue1.blue2 {
+	color: white;
+	background: blue;
+}
+
+.red {
+	background: red;
+}
+
+.wide {
+	width: 100px;
+}
+
+*[lang|="ru"] {
+	color: white;
+	background: brown;
+}
