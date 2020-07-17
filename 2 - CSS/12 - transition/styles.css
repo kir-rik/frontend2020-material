@@ -5,11 +5,11 @@
 }
 
 #animated {
-	transform: translate(300px, 0);
 	transition-property: transform;
 	transition-duration: 1s;
 	transition-timing-function: ease;
 }
 
 #animated:hover {
+	transform: translate(300px, 0);
 }
