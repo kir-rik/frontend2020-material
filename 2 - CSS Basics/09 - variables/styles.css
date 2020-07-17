@@ -1,0 +1,9 @@
+:root { 
+	--main-bg-color: brown;
+}
+
+.container {
+	width: 100px;
+	height: 100px;
+	background-color: var(--main-bg-color, red);
+}

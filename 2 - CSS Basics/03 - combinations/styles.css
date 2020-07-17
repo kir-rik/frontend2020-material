@@ -14,5 +14,5 @@
 }
 
 .a-1 + .b-1 {
-	_background: red;
+	background: red;
 }

@@ -32,6 +32,7 @@
 }
 
 .outer {
+	margin: 30px;
 	background: gray;
 	width: 150px;
 }

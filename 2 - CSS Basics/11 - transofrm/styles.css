@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 700px;
+	margin-left: 100px;
+}
+
+.square {
+	width: 150px;
+	height: 150px;
+	background: green;
+	transform-origin: 0 0;
+}
+
+.positioned {
+	position: absolute;
+	top: 50px;
+	left: 400px;
+}
+
+.check {
+    height: 15px;
+    width: 37px;
+    border-left: 5px solid green;
+    border-bottom: 5px solid green;
+    border-radius: 0 0 0 8px;
+    transform: rotate(-55deg);
+}

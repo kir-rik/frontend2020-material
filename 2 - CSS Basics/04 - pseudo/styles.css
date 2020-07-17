@@ -15,7 +15,6 @@
 	text-decoration: underline;
 }
 
-
 .with-before-after::before { 
   content: "«";
   color: gray;

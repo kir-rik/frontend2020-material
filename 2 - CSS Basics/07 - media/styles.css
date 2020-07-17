@@ -1,0 +1,29 @@
+.square {
+	box-sizing: border-box;
+	border: 1px solid black;
+	width: 100px; height: 100px;
+	padding: 10px;
+}
+
+.square::after {
+	content: "mobile"
+}
+
+@media (min-width: 460px) {
+	.square::after {
+		content: "small-tablet"
+	}
+}
+
+
+@media (min-width: 768px) {
+	.square::after {
+		content: "tablet"
+	}
+}
+
+@media (min-width: 1280px) {
+	.square::after {
+		content: "desktop"
+	}
+}
